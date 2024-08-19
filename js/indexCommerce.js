@@ -65,7 +65,7 @@ function cargarEntradas(){
                         <img src="${foto}">
                           <div class="info">
                               <h4>${nombre}</h4>
-                              <img src="img/arrow.png" class="arrow" id="${id}">
+                              <img src="../../img/arrow.png" class="arrow" id="${id}">
                           </div>
       `
       container.appendChild(entrada)
@@ -145,7 +145,7 @@ function descripcionEntrada() {
                           <img src="${foto}">
                             <div class="info">
                                 <h4>${nombre}</h4>
-                                <img src="img/arrow.png" class="arrow" id="${id}">
+                                <img src="../../img/arrow.png" class="arrow" id="${id}">
                             </div>
         `
         container.appendChild(plato)
@@ -224,7 +224,7 @@ function descripcionFuerte() {
                           <img src="${foto}">
                             <div class="info">
                                 <h4>${nombre}</h4>
-                                <img src="img/arrow.png" class="arrow" id="${id}">
+                                <img src="../../img/arrow.png" class="arrow" id="${id}">
                             </div>
         `
         container.appendChild(plato)
@@ -302,7 +302,7 @@ function cargarBebidas(){
                           <img src="${foto}">
                             <div class="info">
                                 <h4>${nombre}</h4>
-                                <img src="img/arrow.png" class="arrow" id="${id}">
+                                <img src="../../img/arrow.png" class="arrow" id="${id}">
                             </div>
         `
         container.appendChild(plato)
@@ -379,7 +379,7 @@ function cargarFusion(){
                           <img src="${foto}">
                             <div class="info">
                                 <h4>${nombre}</h4>
-                                <img src="img/arrow.png" class="arrow" id="${id}">
+                                <img src="../../img/arrow.png" class="arrow" id="${id}">
                             </div>
         `
         container.appendChild(plato)
