@@ -1,21 +1,13 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "*.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "*.css",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "*.js",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    { "src": "/", "dest": "/indexES.html" },
-    { "src": "/(.*)", "dest": "/$1" }
+  "rewrites": [
+    { "source": "/", "destination": "/indexES.html" },
+    { "source": "/commerceES", "destination": "/pages/commerce/commerceES.html" },
+    { "source": "/commerceEN", "destination": "/pages/commerce/commerceEN.html" },
+    { "source": "/cursoES", "destination": "/pages/curso/cursoES.html" },
+    { "source": "/cursoEN", "destination": "/pages/curso/cursoEN.html" },
+    { "source": "/facturaES", "destination": "/pages/factura/facturaES.html" }
+    { "source": "/facturaEN", "destination": "/pages/factura/facturaEN.html" }
+    { "source": "/rooftopES", "destination": "/pages/rooftop/rooftopES.html" }
+    { "source": "/rooftopEN", "destination": "/pages/rooftop/rooftopEN.html" }
   ]
 }
